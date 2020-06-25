@@ -1,0 +1,31 @@
+body {
+  font-family: Georgia;
+}
+
+.jumbotron {
+  background-color: lightblue;
+  margin-bottom: 0;
+}
+
+aside {
+  background-color: lightgray;
+}
+
+img {
+  width: 100%;
+}
+
+.cols-eq-height {
+    overflow: hidden; 
+}
+
+.cols-eq-height [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+@media screen and (max-width:991px) {
+	.jumbotron {
+		margin: 15px;
+	}
+}
